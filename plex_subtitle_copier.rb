@@ -31,7 +31,6 @@ rescue Errno::ENOENT
   press_any_key_to_exit
 end
 
-subtitles_folder = Dir.exist?('Subtitles')
 if Dir.exist?('Subtitles')
   subtitles_folder = 'Subtitles'
 elsif Dir.exist?('Subs')
